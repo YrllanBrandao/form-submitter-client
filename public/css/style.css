@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+
+
+}
+.bg-main{
+    background: #242b49;
+}
+
+.container-main{
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 560px) {
+    main{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    main{
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 1200px) {
+    main{
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 1400px) {
+    main{
+        width: 35vw;
+    }
+}
+
+@media screen and (min-width: 1401px) {
+    main{
+        width: 30vw;
+    }
+}
