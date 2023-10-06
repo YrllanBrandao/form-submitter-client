@@ -6,7 +6,7 @@ form.addEventListener("submit", (e)=>{
     e.preventDefault();
 
     const ownerMail = inputOwnerMail.value;
-    const formSubmitterDomain = `https://formsubmitter.infinityfreeapp.com/submit?target=${ownerMail}`;
+    const formSubmitterDomain = `https://formsubmitter.fast-page.org/submit?target=${ownerMail}`;
     form.action = formSubmitterDomain;
     form.submit();
 })
